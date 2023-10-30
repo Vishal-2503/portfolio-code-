@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7c41633c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>  
+                <li><a href="#certifications">Certifications/internships</a></li> 
+                <li><a href="#Portfolio">Portfolio</a></li>   
+                <li><a href="#contact">Contact</a></li>          
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p>C,C++,Python Programmer</p>
+            <h1>Hi, This is <span>Vishal</span><br> from SRM </h1>
+        </div>
+    </div>   
+</div>
+<!-- -------about------- ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="images/aboutme.jpg">
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a versatile programmer proficient in C, C++, and Python. With a passion for problem-solving and a knack for efficient coding, I bring a blend of low-level system understanding and high-level application development to the table. I have experience in various domains, from embedded systems to web development, and I'm always eager to tackle new challenges in the world of software development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-conents active-tab" id="Skills">
+                    <ul>
+                        <li><span>C,C++,Python</span><br>Designing Web/App Interfaces </li>
+                        <li><span>Embedded systems</span><br>Architecture of Microchips </li>
+                        <li><span>HTML</span><br>Webb/App development</li>
+                    </ul>
+                </div>
+                <div class="tab-conents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Basic Python Programmer </li>
+                        <li><span>2023</span><br>Currently pursuing my btech Degree in SRM </li> 
+                    </ul>
+                </div>
+                <div class="tab-conents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Club member of UI/UX </li>
+                        <li><span>Webpage editor </span><br>Presentation </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----- ------------------certificates----------------- -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Embedded Systems</h2>
+                <p>Did my certifications through AICTE government aided platform and completed three courses </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Python</h2>
+                <p>Did my certifications through Great Learning platform( OOPS in Python ) </p>
+                <a href="#">Learn more</a>
+            </div>   
+        </div>
+    </div>
+</div>
+<!------ --------------portfolio-------- ------>
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to the talented people around the world . Download it from playstore </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to the talented people around the world . Download it from playstore </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to the talented people around the world . Download it from playstore </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more </a>
+
+    </div>
+</div>
+<!----------------contact --------------- -->
+<div id="contact">
+    <div class="continer">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-solid fa-envelope"></i> vc6323@smist.edu.in </p>
+                <p><i class="fa-solid fa-mobile"></i> 9952225755 </p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/vishal_c03?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vishal-c-6253881b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Vishal-2503"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/vc6323"><i class="fa-brands fa-hackerrank"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Vishal.C  <i class="fa-regular fa-face-grin-beam"></i>  (RA2211003011647)  </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmY7TBDhlzE29u-grqGPza8MAMBETX2DJzrgJ7oTYtemMjPKqC7rUrmtNRMVQ4GNjiRg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log('Success!', response);
+                msg.textContent = "Successfully submitted"; // Display the success message
+                form.reset(); // Optionally, clear the form fields
+            },5000)
+            .catch(error => {
+                console.error('Error!', error.message);
+                msg.textContent = "Submission failed"; // Display an error message
+            });
+    });
+</script>
+</body>
+</html>         
